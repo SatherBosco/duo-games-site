@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/style-mobile.css">
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
@@ -27,9 +29,64 @@
 </head>
 
 <body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <ul>
+                <li><a href="#about-us" class="navbar-btn">Sobre nós</a></li>
+                <li><a href="#portfolio" class="navbar-btn">Portfólio</a></li>
+                <li><a href="#social" class="navbar-btn">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <header id="showcase">
-        <img src="/img/construcao.png" alt="" class="em-construcao">
+        <div id="showcase-container">
+            <img src="/img/duo-games-icon.png" alt="" id="logo">
+            <h1>Duo Games</h1>
+            <p>Nós desenvolvemos diversão!</p>
+        </div>
     </header>
+
+    <section id="about-us">
+        <div id="about-us-container">
+            <h2 class="headline">Sobre nós</h2>
+            <p>
+                Somos um estúdio de jogos localizado no interior de São Paulo, composto por um artista e um programador. Nosso foco é desenvolver jogos com qualidade e originalidade.
+            </p>
+            <h3>Missão</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, omnis!</p>
+            <h3>Visão</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nesciunt.</p>
+            <h3>Valores</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, perferendis.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div id="portfolio-container">
+            <h2 class="headline">Portfólio</h2>
+            <div id="project-cow">
+                <div id="project-cow-img-shadow"></div>
+                <img src="/img/project-cow.jpg" alt="">
+                <p>Project: Cow</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="social">
+        <div class="social-container">
+            <h2 class="headline">Contato</h2>
+            <p>Siga nossas redes sociais:</p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer-container">
+            <small>Duo Games © - Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
