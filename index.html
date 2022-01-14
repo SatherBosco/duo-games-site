@@ -39,6 +39,12 @@
         </div>
     </nav>
 
+    <button onclick="topFunction()" id="btn-top" title="Voltar">
+        <img src="/img/arrow.png" alt="">
+    </button>
+
+    </div>
+
     <header id="showcase">
         <div id="showcase-container">
             <img src="/img/duo-games-icon.png" alt="" id="logo">
@@ -50,15 +56,21 @@
     <section id="about-us">
         <div id="about-us-container">
             <h2 class="headline">Sobre nós</h2>
-            <p>
-                Somos um estúdio de jogos localizado no interior de São Paulo, composto por um artista e um programador. Nosso foco é desenvolver jogos com qualidade e originalidade.
-            </p>
-            <h3>Missão</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, omnis!</p>
-            <h3>Visão</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nesciunt.</p>
-            <h3>Valores</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, perferendis.</p>
+            <div id="about-us-box">
+                <div id="about-us-box1">
+                    <p>
+                        Somos um estúdio de jogos localizado no interior de São Paulo, composto por um artista e um programador. Nosso foco é desenvolver jogos com qualidade e originalidade.
+                    </p>
+                </div>
+                <div id="about-us-box2">
+                    <h3>Missão</h3>
+                    <p>Entregar entretenimento de qualidade através de jogos.</p>
+                    <h3>Visão</h3>
+                    <p>Desenvolver jogos com o máximo de originalidade possível dentro das nossas metas.</p>
+                    <h3>Valores</h3>
+                    <p>Usamos soluções criativas, ouvimos o público e entregamos resultados.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -66,17 +78,44 @@
         <div id="portfolio-container">
             <h2 class="headline">Portfólio</h2>
             <div id="project-cow">
-                <div id="project-cow-img-shadow"></div>
-                <img src="/img/project-cow.jpg" alt="">
-                <p>Project: Cow</p>
+                <img src="/img/project-cow.png" alt="">
+                <div id="project-cow-text">
+                    <h3>Project: Cow</h3>
+                    <p>Project: Cow é um jogo bem-humorado e extremamente difícil de estratégia em que o jogador controla vacas dentro de uma nave espacial para ajuda-las a fugir de seus sequestradores, os Aliens!</p>
+                    <p>Já disponível na Steam.</p>
+                    <br>
+                    <a href="https://store.steampowered.com/app/1727310/Project_Cow/" target="_blank">Ver na Steam</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="social">
-        <div class="social-container">
+        <div id="social-container">
             <h2 class="headline">Contato</h2>
-            <p>Siga nossas redes sociais:</p>
+            <h3>Siga nossas redes sociais:</h3>
+            <div id="social-contact">
+                <a href="#" target="_blank" class="social-btn">
+                    <div>
+                        <img src="/img/instagram.png" alt="">
+                        <h5>Instagram</h5>
+                    </div>
+                </a>
+                <a href="#" target="_blank" class="social-btn">
+                    <div>
+                        <img src="/img/twitter.png" alt="">
+                        <h5>Twitter</h5>
+                    </div>
+                </a>
+                <a href="#" target="_blank" class="social-btn">
+                    <div>
+                        <img src="/img/facebook.png" alt="">
+                        <h5>Facebook</h5>
+                    </div>
+                </a>
+            </div>
+            <h3>Ou se preferir, entre em contato por email:</h3>
+            <h4>contato@duogames.dev.br</h4>
         </div>
     </section>
 
@@ -86,7 +125,14 @@
         </div>
     </footer>
 
-    <script src="js/scroll.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+
+    <script src="/js/scroll.js"></script>
+
+    <script src="/js/show-btn-top.js"></script>
 </body>
 
 </html>
