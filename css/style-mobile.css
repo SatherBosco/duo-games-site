@@ -1,0 +1,47 @@
+#showcase-container h1 {
+    font-size: 30pt;
+}
+
+#btn-top img {
+    width: 5vw;
+    height: auto;
+}
+
+#about-us-box {
+    flex-direction: column;
+    width: 95%;
+}
+
+#about-us-box1 {
+    width: 100%;
+}
+
+#about-us-box2 {
+    width: 100%;
+}
+
+#project-cow {
+    flex-direction: column;
+}
+
+#project-cow img {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#project-cow-text {
+    width: 95%;
+    padding-right: 0px;
+    margin-bottom: 50px;
+}
+
+#social-contact {
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+#social-contact a {
+    margin: 15px 0px;
+}

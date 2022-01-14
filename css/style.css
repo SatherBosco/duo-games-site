@@ -137,22 +137,32 @@ p {
 }
 
 #project-cow img {
-    width: 50vw;
+    width: 50%;
     height: auto;
 }
 
 #project-cow-text {
-    width: 45vw;
+    width: 45%;
+    height: auto;
     padding-right: 30px;
 }
 
 #project-cow-text h3 {
-    padding-top: 30px;
     color: #85b42a;
     text-transform: uppercase;
     text-shadow: 1px 1px #0d4205;
     font-family: 'Russo One', sans-serif;
     letter-spacing: 0.15rem;
+}
+
+#project-cow-text p {
+    padding: 10px 20px;
+}
+
+#project-cow-text div {
+    width: auto;
+    height: auto;
+    margin-top: 15px;
 }
 
 #project-cow-text a {
