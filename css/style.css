@@ -36,8 +36,8 @@ p {
 #btn-top {
     display: none;
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 2vw;
+    right: 2vw;
     width: auto;
     height: auto;
     z-index: 99;
