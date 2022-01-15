@@ -2,11 +2,15 @@
     font-size: 30pt;
 }
 
+#btn-top {
+    right: 3vw;
+    bottom: 3vw;
+}
+
 #btn-top img {
     width: 5vw;
     height: auto;
-    right: 3vw;
-    bottom: 3vw;
+
 }
 
 #about-us-box {
